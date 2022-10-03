@@ -30,7 +30,6 @@ for lang in lang_all_set:
     elif count_for == count:
         word = lang
         lang_one.append(word)
-    # lang_one.append(word)
 lang_one.append(word)
 
 print(f'{len(lang_one)} - {lang_one}')
